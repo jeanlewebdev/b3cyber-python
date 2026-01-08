@@ -1,0 +1,7 @@
+services:
+  app-python:
+    image: placognata/coucou-en-python:latest
+    container_name: coucou-container
+    ports:
+      - "5000:5000"
+    build: .
